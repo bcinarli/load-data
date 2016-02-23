@@ -4,7 +4,6 @@
 
 var fs        = require('fs'),
     path      = require('path'),
-    resolve   = require('resolve'),
     extend    = require('extend'),
     parentDir = path.dirname(module.parent.filename);
 
@@ -35,10 +34,6 @@ module.exports = function(options) {
     }
 
     var opts = extend(defaults, options);
-
-    if(opts.dir[0] !== path.sep && opts.dir.slice(0, 2) !== '.' + path.sep) {
-        opts.dir = path.join(process.cwd(), opts.dir);
-    }
 
     var readDir = function(dir, parent) {
         fs.readdirSync(dir).forEach(function(filename) {
