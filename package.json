@@ -1,0 +1,23 @@
+{
+  "name": "load-data",
+  "version": "0.1.0",
+  "description": "Loads and merge `json` data to a JavaScript object from your local directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcinarli/load-data.git"
+  },
+  "keywords": [
+    "Data",
+    "json"
+  ],
+  "author": "Bilal Cinarli <bcinarli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcinarli/load-data/issues"
+  },
+  "homepage": "https://github.com/bcinarli/load-data#readme"
+}
