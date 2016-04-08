@@ -1,6 +1,6 @@
 {
   "name": "load-data",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Loads and merge `json` data to a JavaScript object from your local directory",
   "main": "index.js",
   "scripts": {
